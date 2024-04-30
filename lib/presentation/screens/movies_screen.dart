@@ -56,7 +56,7 @@ class MovieItemView extends StatelessWidget {
         subtitle: Text(movie.director),
         trailing: const Icon(Icons.arrow_forward_ios),
         onTap: () {
-          context.push('/movie_detail/${movie.id})');
+          context.push('/movie_detail/${movie.id}');
         },
       ),
     );
